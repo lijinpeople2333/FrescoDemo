@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.frescodemo.MainActivity">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/my_image_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        fresco:placeholderImage="@drawable/tip_icon_03"
+        fresco:progressBarAutoRotateInterval="1000"
+        fresco:progressBarImage="@drawable/sso_spinner_48_inner_holo"
+        fresco:progressBarImageScaleType="centerInside"
+        fresco:retryImage="@drawable/tip_icon_02"
+        fresco:retryImageScaleType="centerInside"
+        fresco:roundedCornerRadius="20dp"
+        fresco:roundBottomLeft="false"
+        />
+
+</RelativeLayout>
